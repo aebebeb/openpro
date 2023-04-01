@@ -1,4 +1,4 @@
-package com.cookandroid.project7_2.0;
+package com.cookandroid.project7_2;
 import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             mInflater.inflate(R.menu.menu2, menu);
         }
     }
+
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         switch (item.getItemId()) {
